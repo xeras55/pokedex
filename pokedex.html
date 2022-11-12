@@ -8,10 +8,18 @@
     <link rel="stylesheet" href="pokedex.css">
 </head>
 <body>
-    <h1>Pokedex</h1>
-    <input type="text" placeholder="Ingresa tu poke" id="pokeName" name="pokeName">
-    <img src="./pokeball.png" alt="Pokeball" id="pokeImg" width="150px">
-    <button onclick="fetchPokemon()">Buscar Pokemon</button>
+    <section class="pokedex">
+        <div class="ladoIzqPokedex">
+            <h1 id="namess">Pokedex</h1>
+            <input type="text" placeholder="Ingresa tu poke" id="pokeName" name="pokeName">
+            <img src="./pokeball.png" alt="Pokeball" id="pokeImg" width="150px">
+            <div class="movimientos" id="move">Movimientos</div>
+            <div class="abilities" id="abilities">Abilidades</div>
+            <div class="" id="names">Nombre</div>
+            <div id="type">Type</div>
+            <button type="submit" onclick="fetchPokemon()" >Buscar Pokemon</button>
+        </div>    
+    </section>
 </body>
 <footer>
     <script src="./pokedex.js"></script>
