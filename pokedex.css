@@ -283,5 +283,39 @@
     left: 430px;
     width: 35px;
     height: 547px;
-    background-color: black;
+    background-color: #ce1131;
+    border-radius: 10px 10px  / 10px 10px  ; 
+    border-style: solid;
+    border-width: 2px;
+}
+.reel{
+    position: relative;
+    top: 40px;
+    height: 10px;
+    width: 33px;
+    border-style: solid;
+    background-color: #ce1131;
+    border-width: 1px;
+
+}
+.reelC{
+    position: relative;
+    left: 19px;
+    height: 9px;
+    width: 5px;
+    border-style: solid;
+    background-color: #ce1131;
+    border-width: 1px;
+}
+.reel1{
+    position: relative;
+    top: 480px;
+    height: 10px;
+    width: 33px;
+    border-style: solid;
+    background-color: #ce1131;
+    border-width: 1px;
+}
+.circleB{
+    
 }
