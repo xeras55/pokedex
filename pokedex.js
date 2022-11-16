@@ -49,3 +49,4 @@ const pokeTypes = (types) => {
     const typesName = types.map((item) => item.type.name);
     pokeTipos.innerHTML = typesName;
 }
+
