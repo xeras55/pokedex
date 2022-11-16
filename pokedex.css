@@ -24,11 +24,11 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    left: 15px;
-    top: 10px;
+    left: 9px;
+    top: 13px;
     border-radius: 90px;
-    height: 95px;
-    width: 95px;
+    height: 90px;
+    width: 90px;
     background-color: white;
 } 
 
@@ -39,8 +39,8 @@
     left: 12px;
     top: 6px;
     border-radius: 90px;
-    height: 75px;
-    width: 75px;
+    height: 70px;
+    width: 70px;
     background-color: #009cd4;
 }
 .circuloAzul1{
@@ -85,6 +85,9 @@
     background-color: #eb0508;
 }
 .sombraRoja{
+    position: relative;
+    top: 3px;
+    left: 3px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 90px;
@@ -107,6 +110,9 @@
     background-color: #e2e60f;
 }
 .sombraAmarilla{
+    position: relative;
+    top: 3px;
+    left: 3px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 90px;
@@ -130,6 +136,9 @@
     background-color: #e2e60f;
 }
 .sombraAmarilla1{
+    position: relative;
+    top: 3px;
+    left: 3px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 90px;
@@ -149,7 +158,7 @@
     
     width: 400px;
     height: 585px;
-    background-color:#bd0f34;
+    background-color: #bd0f34;
     border-style: solid;
     border-top: none;
     border-bottom-left-radius: 20px;
@@ -235,6 +244,134 @@
     flex-wrap: wrap;
 }
 
+.colorObjectsCircle{
+    position: relative;
+    display: flex;
+    bottom: 200px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0); 
+}
+
+.colorObjectsColors{
+    position: relative;
+    bottom: 280px;
+    left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.controlsSpace{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 5px;
+    bottom: 8px;
+    height: 457px;
+    width: 390px;
+    background-color: #bd0f34;
+}
+.pokeContainerShadow{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 19px;
+    top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 350px;
+    background-color: #686972;
+    border-radius: 10px;
+}
+.pokeContainerBaseColor{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 10px;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 290px;
+    width: 340px;
+    background-color: #dedede;
+    border-radius: 10px;
+}
+.minicover{
+    position: relative;
+    transform: rotate(-51deg);
+    bottom: 57px;
+    right: 30px;
+    width: 10px;
+    height: 80px;
+    background-color: #686972;
+}
+
+.pokeImage{
+    position: relative;
+    top: 30px;
+    left: 22px;
+    height: 200px;
+    width: 300px;
+    background-color: #545358;
+}
+.containerCover{
+    position: relative;
+    bottom: 40px;
+    width: 0;
+    height: 0;
+    border: 0 solid #dedede;
+    border-right-width: 60px;
+    border-left-width: 0px;
+    border-bottom: 50px solid #bd0f34;
+    
+}  
+
+.bottonsSecction{
+    position: absolute;
+    bottom:5px;
+    left: 5px;
+    height: 130px;
+    width: 385px;
+    background-color: #bd0f34;
+    border-style: solid;
+
+}
+
+.circleButon{
+    position: relative;
+    top: 10px;
+    left: 12px;
+    border-radius: 50%;
+    box-shadow: -3px 3px 0px 3px rgba(0,0,0,1);
+    width: 55px;
+    height: 55px;
+    background-color: #222222;
+}
+.redButton{
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+    height: 13px;
+    width: 65px;
+    border-radius: 20px;
+    background-color: #c70c13;
+}
+.blueButton{
+    position: relative;
+    left: 180px;
+    bottom: 42px;
+    height: 13px;
+    width: 65px;
+    border-radius: 20px;
+    background-color: #095378;
+}
+
 .cover{
     position: absolute;
     left: 403px;
@@ -315,7 +452,4 @@
     border-style: solid;
     background-color: #ce1131;
     border-width: 1px;
-}
-.circleB{
-    
 }
