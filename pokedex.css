@@ -402,6 +402,7 @@
     border-right-width: 0px;
     border-left-width: 42px;
     border-bottom: 42px solid #bd0f34;
+    
 
 }
 .coverofTBAse2{
@@ -446,18 +447,57 @@
     left: 298px;
     height: 42px;
     width: 3px;
-    background-color: #009cd4;
+    background-color: black;
 }
-.coverofT1{
-
+.shadowOfT1{
+    position: relative;
+    left: 256px;
+    bottom: 272px;
+    height: 3px;
+    width: 45px;
+    background-color: black;
 }
-.coverofT2{
-
+.shadowofT2{
+    position: relative;
+    left: 254px;
+    bottom: 275px;
+    height: 40px;
+    width: 3px;
+    background-color: black;
 }
-.coverofT3{   
+.shadowofT3{
+    position: relative;
+    left: 254px;
+    bottom: 278px;
+    height: 5px;
+    width: 45px;
+    background-color: black;
 }
-.coverofT4{
-    
+.shadowofT4{
+    position: relative;
+    left: 297px;
+    bottom: 280px;
+    height: 42px;
+    width: 5px;
+    background-color: black;
+}
+.shadowofT5{
+    position: relative;
+    left: 297px;
+    bottom: 282px;
+    height: 5px;
+    width: 40px;
+    background-color: black;
+}
+.circleOfT{
+    border-style: solid;
+    border-radius: 50%;
+    position: relative;
+    left: 298px;
+    bottom: 363px;
+    height: 30px;
+    width: 30px;
+    background-color: #232323;
 }
 
 .cover{
