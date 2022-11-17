@@ -356,7 +356,7 @@
 .redButton{
     position: relative;
     left: 90px;
-    bottom: 30px;
+    bottom: 45px;
     height: 13px;
     width: 65px;
     border-radius: 20px;
@@ -365,11 +365,99 @@
 .blueButton{
     position: relative;
     left: 180px;
-    bottom: 42px;
+    bottom: 58px;
     height: 13px;
     width: 65px;
     border-radius: 20px;
     background-color: #095378;
+}
+.greenSpace{
+    position: relative;
+    left: 77px;
+    bottom: 30px;
+    height: 70px;
+    width: 160px;
+    background-color: #55ab62;
+    border-radius: 8px;
+}
+.tingOnTPosseBase{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 150px;
+    left: 257px;
+    height: 120px;
+    width: 120px;
+    background-color: #262626;
+}
+.coverofTBAse1{
+    position: relative; 
+    right: 9px;
+    bottom: 9px;
+    width: 0;
+    height: 0;
+    border: 0 solid #bd0f34;
+    border-right-width: 0px;
+    border-left-width: 42px;
+    border-bottom: 42px solid #bd0f34;
+
+}
+.coverofTBAse2{
+    position: relative;
+    left: 10px;
+    bottom: 9px;
+    width: 0;
+    height: 0;
+    border: 0 solid #bd0f34;
+    border-right-width: 42px;
+    border-left-width: 0px;
+    border-bottom: 42px solid #bd0f34;
+
+}
+.coverofTBAse3{
+    position: relative;
+    right: 9px;
+    top: 9px;
+    width: 0;
+    height: 0;
+    border: 0 solid #bd0f34;
+    border-right-width: 0px;
+    border-left-width: 42px;
+    border-top: 42px solid #bd0f34;
+    
+}
+.coverofTBAse4{
+    position: relative;
+    left: 10px;
+    top: 9px;
+    width: 0;
+    height: 0;
+    border: 0 solid #bd0f34;
+    border-right-width: 42px;
+    border-left-width: 0px;
+    border-top: 42px solid #bd0f34;
+    
+}
+.shadowOfT{
+    position: relative;
+    bottom: 270px;
+    left: 298px;
+    height: 42px;
+    width: 3px;
+    background-color: #009cd4;
+}
+.coverofT1{
+
+}
+.coverofT2{
+
+}
+.coverofT3{   
+}
+.coverofT4{
+    
 }
 
 .cover{
