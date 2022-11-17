@@ -1,0 +1,15 @@
+base trasera
+separacion de la base 
+sombra como separador
+lineas de separacion de la sombra
+pantalla de nombre e id
+contenedor para todos los objetos
+contenedor para los botones azules
+botones azules 
+contenedor para los botones blancos, negros y dorado
+botones blancos 
+botones negors de los costados (delgados)
+boton dorado
+botones blancos
+contenedor para pantallas negras 
+pantallas negras 
