@@ -2,6 +2,7 @@ base trasera
 separacion de la base 
 sombra como separador
 lineas de separacion de la sombra
+contenedor para todos los objetos
 pantalla de nombre e id
 contenedor para todos los objetos
 contenedor para los botones azules
