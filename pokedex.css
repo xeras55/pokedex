@@ -705,7 +705,7 @@
 .containerDer{
     display: flex;
     flex-wrap: wrap;
-    position: relative;ce1131
+    position: relative;
     top: 10px;
     width: 380px;
     height: 530px;
@@ -777,7 +777,7 @@
 .coverDer{
     position: relative;
     right: 230px;
-    bottom: 33px;
+    bottom: 22px;
     height: 150px;
     transform: rotate(-69deg);
     width: 50px;
@@ -785,8 +785,8 @@
 }
 .coverDer1{
     position: relative;
-    bottom: 501px;
-    left: 263px;
+    bottom: 492px;
+    left: 258px;
     width:30px;
     transform: rotate(21deg);
     height: 50px;
@@ -794,10 +794,10 @@
 }
 .coverDer2{
     position: relative;
-    bottom: 561px;
-    left: 253px;
+    bottom: 550px;
+    left: 248px;
     height: 110px;
-    width: 119px;
+    width: 123px;
     background-color: #eee;
     
 }
@@ -809,6 +809,14 @@
     height: 40px;
     background-color:  #eee;
 }
+.coverDer4{
+    position: relative;
+    bottom: 512px;
+    right: 127px;
+    height: 10px;
+    width: 5px;
+    background-color: #eee;
+}
 
 .contenairObjectsDer{
     display: flex;
@@ -818,7 +826,6 @@
     left: 6px;
     height: 440px;
     width: 360px;
-    border-style: solid;
     background-color: #ce1131;
 }
 .statsWindow{
@@ -827,6 +834,7 @@
     width: 320px;
     height: 150px;
     background-color: rgb(84, 83, 88);
+    border-radius: 10px;
 }
 .blueSquaresShadow{
     position: relative;
@@ -835,6 +843,7 @@
     width: 320px;
     height: 80px;
     background-color: #2065ec;
+    border-radius: 4px
 }
 
 .blueSquares{
@@ -842,11 +851,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
-    bottom: 156px;
-    left: 31px;
-    width: 310px;
+    bottom: 143px;
+    left: 26px;
+    width: 315px;
     height: 70px;
     background-color: #31a7f1;
+    border-radius: 4px
 }
 
 .lineDer1{
@@ -854,28 +864,137 @@
     
     height:70px;
     width: 1px;
-    background-color: black;
+    background-color: #2065ec;
 }
 .lineDer2{
     height:70px;
     width: 3px;
-    background-color: black;
+    background-color: #2065ec;
 }
 .lineDer3{
     height:70px;
     width: 3px;
-    background-color: black;
+    background-color: #2065ec;
 }
 .lineDer4{
     height:70px;
     width: 3px;
-    background-color: black;
+    background-color: #2065ec;
 }
-.lineDer5{
+/* .lineDer5{
     height:70px;
     width: 3px;
-    background-color: black;
-}
+    background-color: #2065ec;
+} */
 .lineRect{
     position: relative;
+    bottom: 213px;
+    left: 26px;
+    position: relative;
+    width: 315px;
+    height: 3px;
+    background-color: #2065ec;
+}
+
+.buttonsContainerDer{
+    position: absolute;
+    left: 20px;
+    bottom: 83px;
+    width: 318px;
+    height: 120px;
+    background-color: #ce1131;
+}
+
+.StatsContainer{
+    position: absolute;
+    left: 20px;
+    top: 359px;
+    height: 80px;
+    width: 318px;
+    background-color: #ce1131;
+}
+
+.twoFlatBtn{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    left: 177px;
+    height: 20px;
+    width: 140px;
+    background-color: #ce1131;
+}
+.bootonOne{
+    height: 13px;
+    width: 65px;
+    border-radius: 20px; 
+    background-color: #262626;
+}
+
+.bootonTwo{
+    height: 13px;
+    width: 65px;
+    border-radius: 20px;
+    background-color: #262626;
+}
+.witheBtnsShadow{
+    position: relative;
+    top: 10px;
+    width: 140px;
+    height: 60px;
+    background-color: #6c6a72;
+    border-radius: 4px
+}
+.witheBtns{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 5px;
+    width: 135px;
+    height: 52px;
+    border-radius: 4px
+}
+.witheLine{
+    height: 52px;
+    width: 3px;
+    background-color: #6c6a72;
+}
+
+.goldCircle{
+    position: relative;
+    left: 287px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #8c8433;
+}
+
+.goldCorcleShadow{
+    position: relative;
+    left: 2px;
+    top: 2px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #c5bf43;
+}
+.StatsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.containerStats1{
+    width: 140px;
+    height: 55px;
+    background-color:  rgb(84, 83, 88);
+    border-radius: 4px
+}
+.containerStats2{
+    width: 140px;
+    height: 55px;
+    background-color:  rgb(84, 83, 88);
+    border-radius: 4px
 }
