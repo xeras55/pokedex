@@ -10,9 +10,10 @@
 <body>
     <section class="pokedex">
         <h1 id="namess">Pokedex</h1>
-        <div class="pokeInput">
-            <h3 class="search">New Search</h3>
-            <input class="inputPok" type="text">
+        <div class="pokeInputContainer">
+            <h3 class="search">New Search....</h3>
+            <input class="inputPok" placeholder="...."type="text" id="pokeName" name="pokeName">
+            <button type="submit" onclick="fetchPokemon()" class="searchbtn" id="searchbtn">Search</button>
         </div>
         <div class="ladoIzqPokedex">
             <div class="segundaCApa">
@@ -57,7 +58,14 @@
                                     <div class="redCircle1"></div>
                                     <div class="redCircle2"></div>
                                 </div>
-                                <div class="pokeImage"></div>
+                                <div class="pokeImage" id="pokeImage">
+                                    <div class="pokeImageContainer" id="pokeImageContainer"></div>
+                                    <div class="pokeNmId">
+                                        <div class="pokeId" id="pokeId"></div>
+                                        <div class="pokeNames" id="pokeNames"></div>
+                                        
+                                    </div>
+                                </div>
                             </div>
                             <div class="containerCover"></div>
                             <div class="minicover"></div>
@@ -131,7 +139,29 @@
                     <div class="shadowDer"></div>
                     <div class="shadowDer1"></div>
                     <div class="contenairObjectsDer">
-                        <div class="statsWindow"></div>
+                        <div class="statsWindow" id="statsWindow">
+                            <div class="natureType" id="natureType"></div>
+                            <div class="statsBase">
+                                <div class="hpBase" id="hpBase">
+                                    <div class="hpName">Hp</div>
+                                </div>
+                                <div class="attackBase" id="attackBase">
+                                    <div class="attackName">Attack</div>
+                                </div>
+                                <div class="defenseBase" id="defenseBase">
+                                    <div class="defenseName">Defense</div>
+                                </div>
+                                <div class="specialAttackBase" id="specialAttackBase">
+                                    <div class="specialAttackName">Special Attack</div>
+                                </div>
+                                <div class="specialDefenseBase" id="specialDefenseBase">
+                                    <div class="specialDefenseName">Special Defense</div>
+                                </div>
+                                <div class="speedBase" id="speedBase">
+                                    <div class="speedName">Speed</div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="blueSquaresShadow"></div>
                         <div class="blueSquares">
                             <div class="lineDer1"></div>
@@ -156,8 +186,8 @@
                             </div>
                         </div>
                         <div class="StatsContainer">
-                            <div class="containerStats1"></div>
-                            <div class="containerStats2"></div>
+                            <div class="containerStats1" id="containerStats1"></div>
+                            <div class="containerStats2" id="containerStats2"></div>
                         </div>
                     </div>
                 </div>

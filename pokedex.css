@@ -2,19 +2,35 @@
     background-color: #eee;
 }
 
-.pokeInput{
+.pokeInputContainer{
     position: relative;
-    top: 0px;
     left: 200px;
-    bottom: 50px;
+    bottom: 20px;
     width: 250px;
-    height: 50px;
-    background-color: black;
+    height: 60px;
+    margin-top: 2px;
+    border-style: solid;
+    border-top-color: #c76060;
+    border-left-color: #c76060;
+    border-right-color: white;
+    border-bottom-color: white;
+
 }
 .inputPok{
     position: relative;
-    bottom: 13px;
     left: 2px;
+    bottom: 20px;
+    border-style: none;
+}
+.search{
+    position: relative;
+    width: 200px;
+    left: 2px;
+}
+.searchbtn{
+    position: relative;
+    bottom: 21px;
+    left: 50px;
 }
 
 .ladoIzqPokedex{
@@ -328,11 +344,48 @@
 }
 
 .pokeImage{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
     position: relative;
     top: 30px;
     left: 22px;
     height: 200px;
     width: 300px;
+    background-color: #545358;
+}
+.pokeImageContainer{
+    background-color: #545358;
+}
+.pokeNmId{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+.pokeNames{
+    width: 100px;
+    height: 20px;
+    background-color: #545358;
+}
+.pokeId{
+    width: 50px;
+    height: 20px;
+    background-color: #545358;
+}
+#colorOfP{
+    background-color: #545358;
+}
+
+#colorofP0{
+    background-color: #545358;
+}
+
+#colorOfImg{
     background-color: #545358;
 }
 .containerCover{
@@ -851,6 +904,83 @@
     background-color: rgb(84, 83, 88);
     border-radius: 10px;
 }
+#colorOfT{
+    background-color: #545358;
+}
+.natureType{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #545358;
+    height: 80px;
+    width: 200px;
+}
+.statsBase{
+    font-size: x-small;
+    width: 320px;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.hpBase{
+    width: 50px;
+    height: 70px;
+}
+.hpName{
+    position: relative;
+    top: 57px;
+    background-color: #545358;
+}
+.attackBase{
+    width: 50px;
+    height: 70px;
+}
+.attackName{
+    position: relative;
+    top: 57px;
+    background-color: #545358;
+}
+.defenseBase{
+    width: 50px;
+    height: 70px;
+}
+.defenseName{
+    position: relative;
+    top: 57px;
+    background-color: #545358;
+}
+.specialAttackBase{
+    width: 50px;
+    height: 70px;
+}
+.specialAttackName{
+    position: relative;
+    top: 45px;
+    background-color: #545358;
+}
+.specialDefenseBase{
+    width: 50px;
+    height: 70px;
+}
+.specialDefenseName{
+    position: relative;
+    top: 45px;
+    background-color: #545358;
+}
+.speedBase{
+    width: 50px;
+    height: 70px;
+}
+.speedName{
+    position: relative;
+    top: 57px;
+    background-color: #545358;
+}
 .blueSquaresShadow{
     position: relative;
     bottom: 30px;
@@ -1007,9 +1137,16 @@
     background-color:  rgb(84, 83, 88);
     border-radius: 4px
 }
+#colorOfHe{
+    background-color: #545358;
+}
+
 .containerStats2{
     width: 140px;
     height: 55px;
     background-color:  rgb(84, 83, 88);
     border-radius: 4px
+}
+#colorOfWe{
+    background-color: #545358;
 }
