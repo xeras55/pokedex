@@ -13,7 +13,7 @@
         <div class="pokeInputContainer">
             <h3 class="search">New Search....</h3>
             <input class="inputPok" placeholder="...."type="text" id="pokeName" name="pokeName">
-            <button type="submit" onclick="fetchPokemon()" class="searchbtn" id="searchbtn">Search</button>
+            <button type="submit" onclick="validar()" class="searchbtn" id="searchbtn">Search</button>
         </div>
         <div class="ladoIzqPokedex">
             <div class="segundaCApa">
@@ -140,35 +140,47 @@
                     <div class="shadowDer1"></div>
                     <div class="contenairObjectsDer">
                         <div class="statsWindow" id="statsWindow">
+                            <div class="move" id="move"></div>
                             <div class="natureType" id="natureType"></div>
-                            <div class="statsBase">
+                            <div class="statsBase" id="statsBase">
                                 <div class="hpBase" id="hpBase">
                                     <div class="hpName">Hp</div>
+                                    <div class="containH" id="containH"></div>
                                 </div>
                                 <div class="attackBase" id="attackBase">
                                     <div class="attackName">Attack</div>
+                                    <div class="containA" id="containA"></div>
                                 </div>
                                 <div class="defenseBase" id="defenseBase">
                                     <div class="defenseName">Defense</div>
+                                    <div class="containD" id="containD"></div>
                                 </div>
                                 <div class="specialAttackBase" id="specialAttackBase">
                                     <div class="specialAttackName">Special Attack</div>
+                                    <div class="containSa" id="containSa"></div>
                                 </div>
                                 <div class="specialDefenseBase" id="specialDefenseBase">
                                     <div class="specialDefenseName">Special Defense</div>
+                                    <div class="containSd" id="containSd"></div>
                                 </div>
                                 <div class="speedBase" id="speedBase">
                                     <div class="speedName">Speed</div>
+                                    <div class="containSp" id="containSp"></div>
                                 </div>
                             </div>
                         </div>
                         <div class="blueSquaresShadow"></div>
                         <div class="blueSquares">
-                            <div class="lineDer1"></div>
-                            <div class="lineDer2"></div>
-                            <div class="lineDer3"></div>
-                            <div class="lineDer4"></div>
-                            <div class="lineDer5"></div>
+                            <button class="lineDer1" id="lineDer1" type="submit" onclick="hidde()"></button>
+                            <button class="lineDer2" id="lineDer2" type="button" onclick="showAgain()"></button>
+                            <button class="lineDer3" type="button"></button>
+                            <button class="lineDer4" type="button"></button>
+                            <button class="lineDer5" type="button"></button>
+                            <button class="lineDer6" type="button"></button>
+                            <button class="lineDer7" type="button"></button>
+                            <button class="lineDer8" type="button"></button>
+                            <button class="lineDer9" type="button"></button>
+                            <button class="lineDer10" type="button"></button>
                         </div>
                         <div class="lineRect"></div>
                         <div class="buttonsContainerDer">

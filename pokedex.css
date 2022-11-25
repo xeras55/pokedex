@@ -379,10 +379,12 @@
 }
 #colorOfP{
     background-color: #545358;
+    color: #eee;
 }
 
 #colorofP0{
     background-color: #545358;
+    color: #eee;
 }
 
 #colorOfImg{
@@ -904,10 +906,27 @@
     background-color: rgb(84, 83, 88);
     border-radius: 10px;
 }
+.move{
+    background-color: #545358;
+    width: 310px;
+    height: 140px;
+    overflow: auto;
+    
+}
+
+.colorOFMove{
+    width: 320px;
+    height: 150px;
+    background-color: rgb(84, 83, 88);
+}
 #colorOfT{
     background-color: #545358;
+    color: #eee;
 }
 .natureType{
+    position: relative;
+    bottom: 140px;
+    left: 6px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -915,75 +934,156 @@
     background-color: #545358;
     height: 80px;
     width: 200px;
+    border-radius: 10px;
 }
 .statsBase{
+    position: relative;
+    bottom: 145px;
+    left: 6px;
     font-size: x-small;
-    width: 320px;
+    width: 310px;
     height: 70px;
-    background-color: black;
+    background-color: #545358;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
     align-items: flex-end;
+    
 }
 .hpBase{
     width: 50px;
     height: 70px;
+    background-color: #545358;
 }
 .hpName{
     position: relative;
     top: 57px;
     background-color: #545358;
+    color: #eee;
+}
+
+.containH{
+    background-color: #545358;
+}
+.containA{
+    background-color: #545358;
+}
+.containD{
+    background-color: #545358;
+}
+.containSa{
+    background-color: #545358;
+}
+.containSd{
+    background-color: #545358;
+}
+.containSp
+{
+    background-color: #545358;
+}
+#colorOfHp{
+    font-size: small;
+    color: #eee;
+    background-color: #545358;
+    position: relative;
+    bottom: 1px;
 }
 .attackBase{
     width: 50px;
     height: 70px;
+    background-color: #545358;
 }
 .attackName{
     position: relative;
     top: 57px;
     background-color: #545358;
+    color: #eee;
+}
+#colorOfAtt{
+    font-size: small;
+    color: #eee;
+    background-color: #545358;
+    position: relative;
+    bottom: 1px;
 }
 .defenseBase{
     width: 50px;
     height: 70px;
+    background-color: #545358;
 }
 .defenseName{
     position: relative;
     top: 57px;
     background-color: #545358;
+    color: #eee;
+}
+#colorOfDeff{
+    font-size: small;
+    color: #eee;
+    background-color: #545358;
+    position: relative;
+    bottom: 1px;
 }
 .specialAttackBase{
     width: 50px;
     height: 70px;
+    background-color: #545358;
 }
 .specialAttackName{
     position: relative;
     top: 45px;
     background-color: #545358;
+    color: #eee;
+}
+#colorOfSpAt{
+    font-size: small;
+    color: #eee;
+    background-color: #545358;
+    position: relative;
+    bottom: 14px;
 }
 .specialDefenseBase{
     width: 50px;
     height: 70px;
+    background-color: #545358;
+    
 }
 .specialDefenseName{
     position: relative;
     top: 45px;
     background-color: #545358;
+    color: #eee;
 }
+#colorOfSpDf{
+    font-size: small;
+    color: #eee;
+    background-color: #545358;
+    position: relative;
+    bottom: 14px;
+}
+
 .speedBase{
     width: 50px;
     height: 70px;
+    background-color: #545358;
 }
 .speedName{
     position: relative;
     top: 57px;
     background-color: #545358;
+    color: #eee;
+}
+#colorOfSpee{
+    font-size: small;
+    color: #eee;
+    background-color: #545358;
+    position: relative;
+    bottom: 2px;
 }
 .blueSquaresShadow{
     position: relative;
-    bottom: 30px;
+    bottom: 40px;
     left: 21px;
     width: 320px;
     height: 80px;
@@ -994,44 +1094,108 @@
 .blueSquares{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
-    bottom: 143px;
+    bottom: 165px;
     left: 26px;
     width: 315px;
-    height: 70px;
-    background-color: #31a7f1;
+    height: 74px;
+    background-color: #2065ec;
     border-radius: 4px
 }
 
+
 .lineDer1{
-    position: relative;
-    
-    height:70px;
-    width: 1px;
-    background-color: #2065ec;
+    border: none;
+    height:32px;
+    width: 61px;
+    background-color: #31a7f1;
+}
+.lineDer1:hover{
+    background-color: #2393da;
 }
 .lineDer2{
-    height:70px;
-    width: 3px;
-    background-color: #2065ec;
+    border: none;
+    height:32px;
+    width: 61px;
+    background-color: #31a7f1;
+}
+.lineDer2:hover{
+    background-color: #2393da;
 }
 .lineDer3{
-    height:70px;
-    width: 3px;
-    background-color: #2065ec;
+    border: none;
+    height:32px;
+    width: 61px;
+    background-color: #31a7f1;
+}
+.lineDer3:hover{
+    background-color: #2393da;
 }
 .lineDer4{
-    height:70px;
-    width: 3px;
-    background-color: #2065ec;
+    border: none;
+    height:32px;
+    width: 61px;
+    background-color: #31a7f1;
 }
-/* .lineDer5{
-    height:70px;
-    width: 3px;
-    background-color: #2065ec;
-} */
-.lineRect{
+.lineDer4:hover{
+    background-color: #2393da;
+}
+.lineDer5{
+    border: none;
+    height:32px;
+    width: 61px;
+    background-color: #31a7f1;
+}
+.lineDer5:hover{
+    background-color: #2393da;
+}
+.lineDer6{
+    border: none;
+    height:32px;
+    width: 61px;
+    background-color: #31a7f1;
+}
+.lineDer6:hover{
+    background-color: #2393da;
+}
+.lineDer7{
+    border: none;
+    height:32px;
+    width: 61px;
+    background-color: #31a7f1;
+}
+.lineDer7:hover{
+    background-color: #2393da;
+}
+.lineDer8{
+    border: none;
+    height:32px;
+    width: 61px;
+    background-color: #31a7f1;
+}
+.lineDer8:hover{
+    background-color: #2393da;
+}
+.lineDer9{
+    border: none;
+    height:32px;
+    width: 61px;
+    background-color: #31a7f1;
+}
+.lineDer9:hover{
+    background-color: #2393da;
+}
+.lineDer10{
+    border: none;
+    height:32px;
+    width: 61px;
+    background-color: #31a7f1;
+}
+.lineDer10:hover{
+    background-color: #2393da;
+}
+/* .lineRect{
     position: relative;
     bottom: 213px;
     left: 26px;
@@ -1039,7 +1203,7 @@
     width: 315px;
     height: 3px;
     background-color: #2065ec;
-}
+} */
 
 .buttonsContainerDer{
     position: absolute;
@@ -1138,6 +1302,7 @@
     border-radius: 4px
 }
 #colorOfHe{
+    color: #eee;
     background-color: #545358;
 }
 
@@ -1149,4 +1314,5 @@
 }
 #colorOfWe{
     background-color: #545358;
+    color: #eee;
 }

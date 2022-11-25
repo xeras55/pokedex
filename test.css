@@ -1,3 +1,25 @@
 *{
-    background-color: black;
+    background-color: #545358;
+}
+.statsWindow{
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(84, 83, 88);
+    overflow: auto;
+}
+.colorOFMove{
+    width: 100%;
+    max-width: 300px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    /* display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 100px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(84, 83, 88); */
 }
